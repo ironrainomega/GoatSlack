@@ -1,0 +1,24 @@
+# GoatSlack
+
+Have you ever been in a situation where you tried to figure out how players on your server can ping you easily? IRC integration etc all work and this is an alternative if you use Slack.
+
+The mod adds an easy one way integration with Slack using Slack's Incoming Web hooks. This mod is pure server side only. No need to be installed on the clients.
+
+To set up, follow these steps:
+
+1. Create an Incoming webhook for your Slack at: https://my.slack.com/services/new/incoming-webhook/
+2. Once created open the goatslack.cfg file and the following values:
+  1. SlackBotEmoji -> What emoji should the bot use as it's Avatar?
+  2. SlackBotName -> What is the bots name? Useful to identify your server
+  3. SlackChannel -> What channel should the bot ping?
+  4. SlackIncomingHookUrl -> The full URL as given by Slack to your web hook
+
+All done, now users can send a message to an Admin by using
+
+> /pingadmin <message>
+
+That's it :-)
+
+ 
+
+This mod is free to use in any modpack, and on any server.
