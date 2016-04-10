@@ -1,0 +1,15 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "goatslack",
+    "name": "Goat Slack",
+    "description": "A very simple admin mod, that integrates a command and slack.",
+    "version": "1.0",
+    "mcversion": "1.7.10",
+    "url": "http://henning.ws/",
+    "updateUrl": "",
+    "authorList": [ "TamasHenning" ],
+    "credits": "",
+    "logoFile": ""
+  }]
+}
